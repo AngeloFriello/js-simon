@@ -16,7 +16,7 @@ for(let i = 0; i < randomArray.length; i++){
     console.log(utentNumbers);
 
     utentNumbersArray.push(utentNumbers);
-
+// qui faccio il controllo dei numeri uguali tra gli array 
     if(randomArray.includes(utentNumbers) && ! arraySame.includes(utentNumbers) ) {
         countSame = countSame + 1;
 
